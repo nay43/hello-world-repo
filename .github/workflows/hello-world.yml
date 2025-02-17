@@ -8,3 +8,6 @@ jobs:
     steps:
       - name: Echo text
         run: echo "Hello, world!"
+
+      - name: Checkout repo
+        uses: actions/checkout@v4
